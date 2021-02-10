@@ -82,8 +82,6 @@ const Contact = ({ data }) => {
 					   <h4>Address and Phone</h4>
 					   <p className="address">
 						   {data?.name}<br />
-						   {data?.address.street} <br />
-						   {data?.address.city}, {data?.address.state} {data?.address.zip}<br />
 						   <span>{data?.phone}</span>
 					   </p>
 				   </div>
