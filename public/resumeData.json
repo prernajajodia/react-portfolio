@@ -6,10 +6,10 @@
     "image": "cropped.jpg",
     "bio": "My name is Prerna, I'm a frontend ReactJS Developer.",
     "contactmessage": "Get in touch with me to receive further details.",
-    "email": "prernajajodia11@gamil.com",
+    "email": "prernajajodia11@gmail.com",
     "phone": "+91 798 026 1302",
     "website": "https://www.prernajajodia.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1lRVNJxqR0afORIVdMN2b9onZNb2pAiDG/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -51,51 +51,45 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "1%"
+        "level": "50%"
       },
       {
-        "name": "Python",
-        "level": "95%"
+        "name": "Wordpress",
+        "level": "80%"
       },
       {
         "name": "Git",
-        "level": "75%"
+        "level": "50%"
       },
       {
         "name": "JavaScript",
-        "level": "100%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "level": "30%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Zoom Clone with NodeJS",
-        "category": "Zoom Clone built with NodeJS",
-        "image": "zoom.jpg",
-        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+        "category": "Resume",
+        "image": "CaptureK.png",
+        "url": "https://www.prernajajodia.com/"
       },
       {
-        "title": "Robinhood Clone",
-        "category": "Robinhood Clone built with ReactJS",
-        "image": "robinhood.jpg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "category": "E-commerce",
+        "image": "zoom.png",
+        "url": "https://ecommerce.prernajajodia.com/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "In the end, it's not the years in your life that count. It's the life in your years.",
+        "user": "Abraham Lincoln"
       },
       {
-        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "You only live once, but if you do it right, once is enough.",
+        "user": "Mae West"
       }
     ]
   }
