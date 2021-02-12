@@ -3,19 +3,14 @@
     "name": "Prerna Jajodia",
     "occupation": "web developer",
     "description": "",
-    "image": "Naz.jpg",
-    "bio": "My name is Naz, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer.",
+    "image": "cropped.jpg",
+    "bio": "My name is Prerna, I'm a frontend ReactJS Developer.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "prernajajodia11@gamil.com",
     "phone": "+91 798 026 1302",
     "website": "https://www.prernajajodia.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/nazariy1995",
-        "className": "fa fa-facebook"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/prerna-jajodia-58bb0a1b7/",
@@ -34,33 +29,29 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University of Michigan - Dearborn",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
+        "school": "Heritage Institute of Technology",
+        "degree": "Bachelor's Degree, Chemical Engineering",
+        "graduated": "2019-23"
       }
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "JavaScript/Python Specialist",
-        "years": "May 2019 - Present",
-        "description": "Transforming the lives of people by teaching them how to become successful developers no matter if they are a beginner or not!"
+        "company": "Indian Institute of Chemical Engineers",
+        "title": "Online Summer Internship Program",
+        "years": "August 2020 - October 2020"
       },
       {
-        "company": "NazaWEb",
-        "title": "Founder / Developer",
-        "years": "Jan 2019 - Present",
-        "description": "Helping businesses showing their best selves to clients."
+        "company": "Inmovidu",
+        "title": "Data Science, Virtual",
+        "years": "August 2020 - October 2020"
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "1%"
       },
       {
         "name": "Python",
