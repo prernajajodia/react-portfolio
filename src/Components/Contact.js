@@ -1,13 +1,36 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-
+import Snackbar from '@material-ui/core/Snackbar';
+import MuiAlert from '@material-ui/lab/Alert';
 
 const Contact = ({ data }) => {
-   const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
    const [name, setName] = useState('');
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
    const [message, setMessage] = useState('');
+   const [open, setOpen] = React.useState(false);
+
+  const handleClose = (event, reason) => {
+   if (reason === 'clickaway') {
+     return;
+   }
+
+   setOpen(false);
+ };
+
+function snack() {
+return (
+   <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+   <Alert onClose={handleClose} severity="success">
+     Your message was sent successfully! Thank you!
+   </Alert>
+ </Snackbar>
+)
+}
+
+function Alert(props) {
+   return <MuiAlert elevation={6} variant="filled" {...props} />;
+ }
 
     const handleClick = (e) => {
        e.preventDefault();
@@ -15,8 +38,8 @@ const Contact = ({ data }) => {
 
       emailjs.sendForm('service_65rgilf', 'template_1jt0dmg', e.target, 'user_VRsslVleFz5oO5jsnlWPH')
       .then((result) => {
-         console.log('Form submit result without error');
-         console.log(result);
+         if (result.status === 200)
+         setOpen(true);
          // window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
       }, (error) => {
          console.log('Form submit result with error');
@@ -101,6 +124,7 @@ const Contact = ({ data }) => {
 		         </div>
             </aside>
       </div>
+      {snack()}
    </section>
     );
 }
