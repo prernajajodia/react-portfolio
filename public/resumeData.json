@@ -9,7 +9,7 @@
     "email": "prernajajodia11@gmail.com",
     "phone": "+91 798 026 1302",
     "website": "https://www.prernajajodia.com",
-    "resumedownload": "https://drive.google.com/file/d/1BYuqF3UE3HTRel9FhA-cbEmK2HrSP2ke/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1bPeCBSCVaNXikwLYd53bgbGee79zwxLe/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -54,16 +54,28 @@
         "level": "70%"
       },
       {
-        "name": "Wordpress",
-        "level": "90%"
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+         "name": "Python",
+        "level": "70%"
+      },
+      {
+         "name": "Node Js",
+        "level": "30%"
       },
       {
         "name": "Git",
         "level": "80%"
       },
+       {
+        "name": "Wordpress",
+        "level": "90%"
+      },
       {
-        "name": "JavaScript",
-        "level": "70%"
+        "name": "HTML/CSS",
+        "level": "75%"
       }
     ]
   },
